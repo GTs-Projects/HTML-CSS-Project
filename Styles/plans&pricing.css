@@ -158,18 +158,12 @@
     font-size: 60px !important;
   }
   .pp-cards-container {
-    /* display: flex;
-    
-    justify-content: space-evenly;
-    align-items: start;
-    margin: auto; */
     flex-direction: row;
     padding: 20px;
     justify-content: center;
     align-items: center;
   }
 
-  
   .pp-cards-h1 {
     font-size: 20px !important;
   }
@@ -192,7 +186,6 @@
 
   .pp-cards1 {
     padding: 30px;
-
   }
 
   .pp-cards2 {
@@ -202,7 +195,5 @@
 
   .pp-cards2 li > p {
     font-size: 14px !important;
-}
-
-  
+  }
 }
