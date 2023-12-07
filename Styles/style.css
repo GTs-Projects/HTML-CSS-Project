@@ -2,7 +2,7 @@
   --bclr-header: rgb(12, 60, 96);
   --txtclr-header: #ffffff;
   --font-header: "Avenir LT Pro", sans-serif;
-
+  --pp-borderclr: rgb(0, 0, 0, 0.2);
   --font-img-txt: "Brandon Grot W01 Light";
   --font-img-a: "avenir lt heavy", sans-serif;
   --clr-img-p: rgb(0, 0, 0);
@@ -134,6 +134,8 @@ header {
   font-weight: bold;
   margin: auto;
   margin-top: 20px;
+
+  padding: 0;
 }
 
 .img-txt-h1 {
@@ -145,6 +147,8 @@ header {
   letter-spacing: 0.03em;
   margin: auto;
   margin-bottom: 5%;
+  text-wrap: wrap;
+  padding: 0;
 }
 
 .img-txt-a {
@@ -496,6 +500,13 @@ header {
   padding-bottom: 50px;
 }
 
+@media (max-width: 520px) {
+  .wide-res,
+  .w768 {
+    padding: 0 5px !important;
+  }
+}
+
 @media (min-width: 768px), (max-width: 1000px) {
   .wide-res,
   .w768 {
@@ -604,11 +615,13 @@ header {
   .img-txt-p {
     font-size: 26px !important;
     margin: auto;
+    padding-top: 15px;
   }
 
   .img-txt-h1 {
     font-size: 60px !important;
     margin: auto;
+    padding: 20px;
   }
 
   .img-txt-a {
